@@ -1,0 +1,99 @@
+{
+  "name": "glassmorphism-themes",
+  "displayName": "Glassmorphism Themes",
+  "description": "A collection of glassmorphism-inspired themes for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Glassmorphism - Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Sunset-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Ocean-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Neon-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Galaxy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Galaxy-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Forest-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Twilight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Twilight-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Autumn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Autumn-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Spring",
+        "uiTheme": "vs",
+        "path": "./themes/Light/Glassmorphism - Spring-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Summer",
+        "uiTheme": "vs",
+        "path": "./themes/Light/Glassmorphism - Summer-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Breeze",
+        "uiTheme": "vs",
+        "path": "./themes/Light/Glassmorphism - Breeze-color-theme.json"
+      },
+      {
+        "label": "Glassmorphism - Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark/Glassmorphism - Dusk-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/glassmorphism-themes.git"
+  },
+  "keywords": [
+    "theme",
+    "glassmorphism",
+    "dark theme",
+    "light theme",
+    "color theme",
+    "sunset",
+    "ocean",
+    "neon",
+    "galaxy",
+    "forest",
+    "twilight",
+    "autumn",
+    "spring",
+    "summer",
+    "breeze",
+    "dusk"
+  ],
+  "author": "Blake Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParkBlake/glassmorphism-themes/issues"
+  },
+  "homepage": "https://github.com/ParkBlake/glassmorphism-themes#readme"
+}
