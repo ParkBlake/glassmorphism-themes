@@ -54,6 +54,13 @@ Each theme is specific to what I had in mind at the time, but you can always cus
 2. Type "Generate Color Theme" and select "Developer: Generate Color Theme From Current Settings"
 3. Modify the JSON file to your liking
 
+Additionally, you can configure the following settings:
+
+1. glassmorphismThemes.opacity: Set the opacity level (0.1 to 1.0)
+2. glassmorphismThemes.enabled: Enable or disable the glassmorphism effect
+3. glassmorphismThemes.opacityPreset: Select a preset opacity level
+
+
 ## Best Practices for Using Glassmorphism
 
 When incorporating glassmorphism into your design, consider the following best practices:

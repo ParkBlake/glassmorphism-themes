@@ -1,15 +1,30 @@
 {
+  "publisher": "blakepark",
   "name": "glassmorphism-themes",
   "displayName": "Glassmorphism Themes",
-  "description": "A collection of glassmorphism-inspired themes for VS Code",
-  "version": "0.0.1",
+  "description": "A collection of glassmorphism-inspired themes for VS Code.",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Themes"
   ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./glassmorphismManager.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "glassmorphismThemes.adjustOpacity",
+        "title": "Glassmorphism: Adjust Opacity"
+      },
+      {
+        "command": "glassmorphismThemes.toggleEffect",
+        "title": "Glassmorphism: Toggle Effect"
+      }
+    ],
     "themes": [
       {
         "label": "Glassmorphism - Sunset",
@@ -66,11 +81,34 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Dark/Glassmorphism - Dusk-color-theme.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Glassmorphism Themes",
+      "properties": {
+        "glassmorphismThemes.opacity": {
+          "type": "number",
+          "default": 0.8,
+          "minimum": 0.1,
+          "maximum": 1.0,
+          "description": "Set the opacity level for glassmorphism effect (0.1 to 1.0)"
+        },
+        "glassmorphismThemes.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable the glassmorphism effect"
+        },
+        "glassmorphismThemes.opacityPreset": {
+          "type": "string",
+          "enum": ["Low", "Medium", "High", "Custom"],
+          "default": "Medium",
+          "description": "Select a preset opacity level or choose 'Custom' to use the opacity setting"
+        }
+      }
+    }
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/glassmorphism-themes.git"
+    "url": "https://github.com/ParkBlake/glassmorphism-themes.git"
   },
   "keywords": [
     "theme",
@@ -88,7 +126,8 @@
     "spring",
     "summer",
     "breeze",
-    "dusk"
+    "dusk",
+    "adjustable opacity"
   ],
   "author": "Blake Park",
   "license": "MIT",
